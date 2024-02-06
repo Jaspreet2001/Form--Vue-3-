@@ -7,14 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier .  --write"
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore src",
+    "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write",
+    "format-standard": "npx standard",
+    "format-standard:fix": "npx standard --fix",
   },
   "dependencies": {
     "moment": "^2.30.1",
     "primevue": "^3.47.2",
+    "standard": "^17.1.0",
+    "vee-validate": "^4.12.5",
     "vue": "^3.3.11",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue-tel-input": "^8.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

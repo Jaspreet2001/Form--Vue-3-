@@ -8,7 +8,5 @@ module.exports = {
         "prettier"
     ],
     rules: {
-        "vetur.validation.template": false,
-        "vue/require-default-prop": "off",
     }
   }
