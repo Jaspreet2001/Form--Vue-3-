@@ -11,7 +11,7 @@
     "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write",
     "format-standard": "npx standard",
-    "format-standard:fix": "npx standard --fix",
+    "format-standard:fix": "npx standard --fix"
   },
   "dependencies": {
     "moment": "^2.30.1",
