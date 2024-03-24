@@ -1,10 +1,10 @@
 <script setup>
-import formComp from './views/formComp.vue';
 </script>
 
 <template>
-<formComp></formComp>
-<router-view></router-view>
+<router-view>
+  
+</router-view>
 </template>
 
 <style scoped>
